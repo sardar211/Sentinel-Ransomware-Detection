@@ -108,13 +108,14 @@ This project showcases skills in **cloud security**, **SIEM/SOAR**, **threat int
       post_data_to_sentinel(ioc)
   ```
 - Verified **IOC** ingestion with the following **KQL** queries:
-
-  - **For All**
+- **For All**
     ```kql
     OTX_IOCs_CL | where TimeGenerated > ago(7d) | take 1000
     ```
+- **IOC Log Ingestion**![Query Output](screenshots/forall.png)
 
-  - **IP Addresses**:
+
+- **IP Addresses**:
     ```kql
     OTX_IOCs_CL
     | where TimeGenerated > ago(1h)
@@ -123,6 +124,9 @@ This project showcases skills in **cloud security**, **SIEM/SOAR**, **threat int
     | sort by TimeGenerated desc
     | take 20
     ```
+- **Filter with IP Addresses**![Query Output](screenshots/ip.png)
+
+
   - **Domains**:
     ```kql
     OTX_IOCs_CL
@@ -132,6 +136,9 @@ This project showcases skills in **cloud security**, **SIEM/SOAR**, **threat int
     | sort by TimeGenerated desc
     | take 20
     ```
+- **Filter with IP Domain**![Query Output](screenshots/domain.png)
+
+
   - **File Hashes**:
     ```kql
     OTX_IOCs_CL
@@ -141,7 +148,7 @@ This project showcases skills in **cloud security**, **SIEM/SOAR**, **threat int
     | sort by TimeGenerated desc
     | take 20
     ```
-- **Screenshot Placeholder**: [Add screenshot of **OTX_IOCs_CL** table in **Sentinel Logs**]
+- **Filter with FileHash**![Query Output](screenshots/hash.png)
 
 ### 4. Ransomware Simulation
 - Simulated ransomware by creating a file with a **PowerShell** command:
