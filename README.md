@@ -50,7 +50,7 @@ This project showcases skills in **cloud security**, **SIEM/SOAR**, **threat int
   SecurityEvent | take 10
   ```
 - Confirmed events like **Event ID 4663** were successfully ingested for ransomware detection.
-- **Outout Screenshot** |![Query Output](screenshots/security_events.png) |
+- **Outout Screenshot** [![Query Output](screenshots/security_events.png)]
 
 ### 3. Threat Intelligence Integration
 - **AlienVault OTX**: Fetched **IOCs** (IPs, domains, file hashes) from pulse `682c98241f65c148621d6ae1` using a **Python** script.
