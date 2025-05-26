@@ -172,7 +172,7 @@ This project showcases skills in **cloud security**, **SIEM/SOAR**, **threat int
   - **Entity Mapping**: **Account**, **Host**
   - **MITRE ATT&CK**: **Impact (T1486)**
 - **Analytics Rule Setup**![Query Output](screenshots/analytics_rule.png)
-- **Incident Popup with Created Analytics Rule**![Query Output](screenshots/incident.png)
+- **Incident Popup with Created Analytics Rule**![Query Output](screenshots/newalertpop.png)
 
 ### 6. Automated Incident Response
 - Built a **Logic App** (`RansomwareResponse`) with a **Sentinel incident trigger**.
@@ -180,7 +180,7 @@ This project showcases skills in **cloud security**, **SIEM/SOAR**, **threat int
 - Enabled **Managed Identity** and assigned **Microsoft Sentinel Automation Contributor** role to resolve permission issues.
 - Linked to an **Automation Rule** to trigger the **Logic App** on new incidents.
 - **Logic App Design & Email Details**![Query Output](screenshots/logic_app_workflow.png)
-- **After an Alert Email Received**![Query Output](screenshots/emailrec.png)
+- **After an Alert Email Received**![Query Output](screenshots/email2.png)
 - **Managed Identity Permission**![Query Output](screenshots/role.png)
 - **Automation Rule Setup**![Query Output](screenshots/auto.png)
 
