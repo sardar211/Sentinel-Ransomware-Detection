@@ -41,7 +41,7 @@ This project showcases skills in **cloud security**, **SIEM/SOAR**, **threat int
     .\OnboardingScript.ps1
     ```
   - The `OnboardingScript.ps1` was provided by **Azure Arc** during the onboarding process to register the VM with the **Log Analytics Workspace**.
-- **Screenshot Placeholder**: [Add screenshot of **Azure Portal** showing **Resource Group**, **Sentinel setup**, or **Azure Arc-connected machine**]
+- **Connected Windows 10 VM**![Query Output](screenshots/azure_arc_setup.png)
 
 ### 2. Log Ingestion
 - Configured the **Windows Security Events** connector in **Microsoft Sentinel** to collect **Windows Security Events** from the **Azure Arc-connected Windows 10 VM**.
@@ -50,7 +50,7 @@ This project showcases skills in **cloud security**, **SIEM/SOAR**, **threat int
   SecurityEvent | take 10
   ```
 - Confirmed events like **Event ID 4663** were successfully ingested for ransomware detection.
-- **Log Ingestion Output Screenshot** ![Query Output](screenshots/security_events.png)
+- **Log Ingestion Output Screenshot**![Query Output](screenshots/security_events.png)
 
 ### 3. Threat Intelligence Integration
 - **AlienVault OTX**: Fetched **IOCs** (IPs, domains, file hashes) from pulse `682c98241f65c148621d6ae1` using a **Python** script.
