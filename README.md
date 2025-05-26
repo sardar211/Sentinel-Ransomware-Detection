@@ -159,7 +159,7 @@ This project showcases skills in **cloud security**, **SIEM/SOAR**, **threat int
   ```kql
   SecurityEvent | where EventID == 4663 and ObjectName contains "encrypted" | take 10
   ```
-- **Screenshot Placeholder**: [Add screenshot of **Event ID 4663** in **Sentinel Logs**]
+- **Ouput with Event ID 4663**![Query Output](screenshots/event_4663.png)
 
 ### 5. Analytics Rule Creation
 - Created a **Scheduled Analytics Rule** (`RansomwareDetectionRule`) in **Sentinel**:
@@ -171,7 +171,7 @@ This project showcases skills in **cloud security**, **SIEM/SOAR**, **threat int
   - **Threshold**: Trigger if **> 0 results**
   - **Entity Mapping**: **Account**, **Host**
   - **MITRE ATT&CK**: **Impact (T1486)**
-- **Screenshot Placeholder**: [Add screenshot of **Analytics Rule** configuration]
+- **Analytics Rule Setup**![Query Output](screenshots/analytics_rule.png)
 
 ### 6. Automated Incident Response
 - Built a **Logic App** (`RansomwareResponse`) with a **Sentinel incident trigger**.
