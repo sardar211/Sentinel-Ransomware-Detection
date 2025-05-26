@@ -13,7 +13,7 @@ This project builds an **end-to-end Security Operations Center (SOC)** pipeline 
 - **Detection**: Creating **KQL-based analytics rules** to identify suspicious file creation events.
 - **Automated Response**: Triggering **email alerts** via **Logic Apps** for incident response.
 
-This project showcases skills in **cloud security**, **SIEM/SOAR**, **threat intelligence**, and **automation**, making it a strong addition to a cybersecurity portfolio.
+This project showcases skills in **cloud security**, **SIEM/SOAR**, **threat intelligence**, and **automation**.
 
 ---
 
