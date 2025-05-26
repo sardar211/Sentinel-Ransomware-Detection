@@ -1,6 +1,6 @@
 # 💼Microsoft Sentinel Ransomware Detection and Response
 
-A cloud-native **SIEM** project leveraging **Microsoft Sentinel**, **Azure Arc**, **AlienVault OTX Threat Intelligence**, and **Logic Apps** to detect and respond to ransomware-like activities in a Windows VM environment. This project demonstrates **automated incident response** workflows, **threat intelligence integration**, and **analytics rule creation** for a robust security operations pipeline.
+A cloud-native **SIEM/SOAR** project leveraging **Microsoft Sentinel**, **Azure Arc**, **AlienVault OTX Threat Intelligence**, and **Logic Apps** to detect and respond to ransomware-like activities in a Windows VM environment. This project demonstrates **automated incident response** workflows, **threat intelligence integration**, and **analytics rule creation** for a robust security operations pipeline.
 
 ---
 
