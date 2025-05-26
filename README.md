@@ -179,7 +179,7 @@ This project showcases skills in **cloud security**, **SIEM/SOAR**, **threat int
 - Enabled **Managed Identity** and assigned **Microsoft Sentinel Automation Contributor** role to resolve permission issues.
 - Linked to an **Automation Rule** to trigger the **Logic App** on new incidents.
 - **Logic App Design & Email Details**![Query Output](screenshots/logic_app_workflow.png)
-- **After an Alert Email Received**![Query Output](screenshots/logic_app_workflow.png)
+- **After an Alert Email Received**![Query Output](screenshots/email_alert.png)
 - **Managed Identity Permission**![Query Output](screenshots/role.png)
 - **Automation Rule Setup**![Query Output](screenshots/auto.png)
 
