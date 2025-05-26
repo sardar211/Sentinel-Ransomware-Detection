@@ -178,7 +178,10 @@ This project showcases skills in **cloud security**, **SIEM/SOAR**, **threat int
 - Configured **Send Email (V3)** to notify with incident details and a manual **VM stop** link.
 - Enabled **Managed Identity** and assigned **Microsoft Sentinel Automation Contributor** role to resolve permission issues.
 - Linked to an **Automation Rule** to trigger the **Logic App** on new incidents.
-- **Screenshot Placeholder**: [Add screenshot of **Logic App** workflow and email received]
+- **Logic App Design & Email Details**![Query Output](screenshots/logic_app_workflow.png)
+- **After an Alert Email Received**![Query Output](screenshots/logic_app_workflow.png)
+- **Managed Identity Permission**![Query Output](screenshots/role.png)
+- **Automation Rule Setup**![Query Output](screenshots/auto.png)
 
 ---
 
@@ -201,18 +204,6 @@ This project showcases skills in **cloud security**, **SIEM/SOAR**, **threat int
 - **Automation**: Use **Azure Arc Run Command** to automate **VM shutdown**.
 - **Alert Tuning**: Add suppression (e.g., **1-hour**) to reduce noise.
 - **Threat Hunting**: Develop **KQL** queries to correlate **IOCs** with network events.
-
----
-
-## 🖼️ Screenshots (To Be Added)
-
-1. **Azure Portal**: **Resource Group**, **Sentinel setup**, or **Azure Arc-connected machine**
-2. **Sentinel Logs**: **`SecurityEvent`** query output
-3. **Sentinel Logs**: **`OTX_IOCs_CL`** table with **IOCs**
-4. **Sentinel Logs**: **Event ID 4663** for ransomware simulation
-5. **Sentinel**: **`RansomwareDetectionRule`** configuration
-6. **Logic App**: Workflow design
-7. **Email Alert**: Received incident notification
 
 ---
 
@@ -280,5 +271,4 @@ Feel free to reach out for questions or collaboration:
 - **Email**: sardarasif376@gmail.com
 
 ---
-
-*This project is a key part of my cybersecurity portfolio, showcasing practical skills in **SIEM/SOAR**, **threat intelligence integration**, and **automation**.*
+END...
