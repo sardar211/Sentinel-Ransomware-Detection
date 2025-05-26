@@ -172,6 +172,7 @@ This project showcases skills in **cloud security**, **SIEM/SOAR**, **threat int
   - **Entity Mapping**: **Account**, **Host**
   - **MITRE ATT&CK**: **Impact (T1486)**
 - **Analytics Rule Setup**![Query Output](screenshots/analytics_rule.png)
+- **Incident Popup with Created Analytics Rule **![Query Output](screenshots/alertpop.png)
 
 ### 6. Automated Incident Response
 - Built a **Logic App** (`RansomwareResponse`) with a **Sentinel incident trigger**.
